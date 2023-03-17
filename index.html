@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Formulas Básicas Geométricas</title>
+  </head>
+  <body>
+    <div id="container">
+      <label for="forms">Seleccione las siguientes opciones:</label>
+      <select id="forms">
+        <option value="">Seleccione una figura geométricas</option>
+        <option value="circle">Círculo</option>
+        <option value="square">Cuadrado</option>
+        <option value="rectangle">Rectángulo</option>
+        <option value="triangle">Triángulo</option>
+      </select>
+
+      <label for="formula"></label>
+      <select id="formula">
+        <option value="">Seleccione una fórmula</option>
+        <option value="perimeter">Perímetro</option>
+        <option value="area">Área</option>
+      </select>
+
+      <div id="data-input">
+        <input type="text" />
+        <button type="button" id="calculate">Calcular</button>
+      </div>
+      <div id="result-container">
+        <p id="result"></p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
